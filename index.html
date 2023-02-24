@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YIP</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://kit.fontawesome.com/f4c3990f92.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main>
+        <div class="left-menu">
+            <img src="./res/logo.png" alt="logo">
+            <div class="menu-items">
+                <li class="menu-item">
+                    <div class="menu-icon active">
+                        <i class="fa-solid fa-house"></i>
+                    </div>
+                    <a href="#">Home</a>
+                </li>
+                <li class="menu-item">
+                    <div class="menu-icon">
+                        <i class="fa-solid fa-people-group"></i>
+                    </div>
+                    <a href="#">Club</a>
+                </li>
+                <li class="menu-item">
+                    <div class="menu-icon">
+                        <i class="fa-sharp fa-solid fa-school"></i>
+                    </div>
+                    <a href="#">School</a>
+                </li>
+            </div>
+            <i class="settings fa-solid fa-gear"></i>
+        </div>
+        <div class="dashboard-container">
+            <div class="tab-nav">
+                <div class="tab-nav-container">
+                    <div class="tab active blue">
+                        <i class="fa-solid fa-house"></i>
+                      <p>Home</p>
+                    </div>
+                    <div class="tab blue">
+                        <i class="fa-solid fa-people-group"></i>
+                      <p>Clubs</p>
+                    </div>
+                    <div class="tab blue">
+                        <i class="fa-sharp fa-solid fa-school"></i>
+                      <p>School</p>
+                    </div>
+                    <div class="tab blue">
+                      <i class="settings fa-solid fa-gear"></i>
+                      <p>Settings</p>
+                    </div>
+                </div>
+            </div>
+            <img class="dashboard-logo" src="./res/logo.png" alt="logo">
+            <div class="banner-container">
+                <div class="welcome-banner">
+                 <div class="statistics">
+                        <div class="box blue-box">
+                            <h3>30</h3>
+                            <p>Active</p>
+                        </div>
+                        <div class="box light-blue-box">
+                            <h3>370</h3>
+                            <p>Pending</p>
+                        </div>
+                    </div>
+                    <div class="welcome-image-container">
+                        <div class="welcome-text">
+                            <h1>Welcome Back!</h1>
+                            <h3>You have completed <br> 80% of your goal</h3>
+                        </div>
+                        <img src="./res/Study abroad-pana.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="white-container">
+                <div class="filter-top-container club">
+                    <div class="filter-items">
+                        <a class="btn blue-btn" href="#">YIP Club</a>
+                        <a class="btn white-btn" href="#">School</a>
+                    </div>
+                    <div class="search-box gray-box">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input  type="text" placeholder="Search School/College">
+                    </div>
+                </div>
+                <div class="setup-club">
+                    <h3>Setup New Club</h3>
+                    <div class="setup-filter">
+                        <div class="select-container">
+                            <div class="setup-item">
+                                <p>District</p>
+                                <select name="" id="">
+                                    <option value="">Hi</option>
+                                </select>
+                            </div>
+                            <div class="setup-item">
+                                <p>Panchayath</p>
+                                <select name="" id="">
+                                    <option value="">Hi</option>
+                                </select>
+                            </div>
+                            <div class="setup-item">
+                                <p>School/College</p>
+                                <select name="" id="">
+                                    <option value="">Hi</option>
+                                </select>
+                            </div>
+                        </div>
+                        <a id="create" class="btn black-btn" href="#">Create</a>       
+                    </div>
+                </div> 
+            </div>
+            <div class="white-container bottom">
+                <div class="filter-top-container table">
+                    <h3>YIP Club listing</h3>
+                    <div class="list-container">
+                        <div class="search-box white-box">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input  type="text" placeholder="Search Centers">
+                        </div>
+                        <div class="filter-container">
+                            <div class="filter-option">
+                                <i class="fa-solid fa-sort"></i>
+                                <h5>Sort</h5>
+                            </div>
+                            <div class="filter-option">
+                                <i class="fa-solid fa-filter"></i>
+                                <h5>Filter</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-list">
+                    <div class="table-title">
+                        <ul>
+                            <li class="title">Center</li>
+                            <li class="title">Region</li>
+                            <li class="title">City</li>
+                            <li class="title">Status</li>
+                        </ul>
+                    </div>
+                    <div class="table-content">
+                        <ul>
+                            <li class="value">Center</li>
+                            <li class="value">Region</li>
+                            <li class="value">City</li>
+                            <li class="value">
+                                <a class="table-btn completed" href="#">Completed</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="value">Center</li>
+                            <li class="value">Region</li>
+                            <li class="value">City</li>
+                            <li class="value">
+                                <a class="table-btn pending" href="#">Pending</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="value">Center</li>
+                            <li class="value">Region</li>
+                            <li class="value">City</li>
+                            <li class="value">
+                                <a class="table-btn processing" href="#">Processing</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="value">Center</li>
+                            <li class="value">Region</li>
+                            <li class="value">City</li>
+                            <li class="value">
+                                <a class="table-btn collected" href="#">Collected</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="value">Center</li>
+                            <li class="value">Region</li>
+                            <li class="value">City</li>
+                            <li class="value">
+                                <a class="table-btn collected" href="#">Collected</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="value">Center</li>
+                            <li class="value">Region</li>
+                            <li class="value">City</li>
+                            <li class="value">
+                                <a class="table-btn collected" href="#">Collected</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="value">Center</li>
+                            <li class="value">Region</li>
+                            <li class="value">City</li>
+                            <li class="value">
+                                <a class="table-btn collected" href="#">Collected</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="value">Center</li>
+                            <li class="value">Region</li>
+                            <li class="value">City</li>
+                            <li class="value">
+                                <a class="table-btn collected" href="#">Collected</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="value">Center</li>
+                            <li class="value">Region</li>
+                            <li class="value">City</li>
+                            <li class="value">
+                                <a class="table-btn collected" href="#">Collected</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="value">Center</li>
+                            <li class="value">Region</li>
+                            <li class="value">City</li>
+                            <li class="value">
+                                <a class="table-btn collected" href="#">Collected</a>
+                            </li>
+                        </ul>
+                                            <ul>
+                            <li class="value">Center</li>
+                            <li class="value">Region</li>
+                            <li class="value">City</li>
+                            <li class="value">
+                                <a class="table-btn collected" href="#">Collected</a>
+                            </li>
+                        </ul>                    <ul>
+                            <li class="value">Center</li>
+                            <li class="value">Region</li>
+                            <li class="value">City</li>
+                            <li class="value">
+                                <a class="table-btn collected" href="#">Collected</a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script src="./bottom-tab.js"></script>
+</body>
+</html>
