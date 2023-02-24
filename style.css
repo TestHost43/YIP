@@ -9,10 +9,10 @@
 }
 body{
     background-color: #e9ebf1;
-    overflow-x: hidden;
 }
 main{
     display: flex;
+    overflow-x: hidden;
     /* grid-template-columns:20% 80%; */
     justify-content: space-between;
     width: 100%;
